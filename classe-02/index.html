@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <h1>Formulário de Cadastro</h1>
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+            </div>
+            <div>
+                <label for="celular">Celular</label>
+                <input id="celular" type="number" required>
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input id="senha" type="password">
+            </div>
+            <div>
+                <label for="cinfirme-a-senha">Confirme a senha</label>
+                <input id="repetir-senha" type="password">
+            </div>
+            <div>
+                <label for="estado">Estado</label>
+                <select name="" id="estado" required>
+                    <option value="">Select</option>
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapá">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="espirito-santo">Espírito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="mato-grosso">Mato Grosso</option>
+                    <option value="mato-grosso-do-sul">Mato Grossodo Sul</option>
+                    <option value="minas-geais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="parana">Paraná</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="rio-grande-do-sul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santa-catarina">Santa Catarina</option>
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
